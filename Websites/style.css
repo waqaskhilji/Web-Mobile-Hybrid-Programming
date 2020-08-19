@@ -1,0 +1,108 @@
+.navbar{
+    background-color:#C2185B !important;
+}
+.nav-link{
+    color: white    !important;
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart{
+    font-size: 27px !important;
+}
+.fa-user-circle-o{
+    font-size: 26px !important;
+}
+
+.fa-truck, .fa-headphones,.fa-thumbs-up{
+    font-size: 40px !important  ;
+    margin-right: 10px;
+    color: #C2185B;
+
+
+}
+h3{
+    color: #C2185B;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 303px    ;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.mainCard{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:   space-around;
+    flex-wrap:  wrap;
+}
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+       width: 100%;  
+    }
+
+
+}
+
+.newArrival{
+    margin-top: 30px;
+
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    /* background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    /* justify-content: center; */
+    /* margin-top: 10px; */ */
+    /* margin-left: 80px   ; */ */
+    
+} 
+
+.btn-primary{
+    width: 100% ;
+    background-color:#C2185B ;
+}
+.heading{
+    font-weight: bold;
+    text-align: center;
+    color: #C2185B ;
+    margin: 20px;
+    
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px black;
+}
+/* .footer{
+    width: 100%;
+    background-color: #C2185B !important;
+    height: 100%;
+    vertical-align: bottom;
+
+} */
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C2185B;
+    color: white;
+    text-align: center;
+    height: 50px;
+.footer > div{
+    text-align: center;
+    
+}
+.sm_footer{
+
+    height: 50px;
+
+}
